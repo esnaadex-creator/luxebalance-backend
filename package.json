@@ -1,0 +1,15 @@
+{
+  "name": "luxebalance-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "@supabase/supabase-js": "latest",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0"
+  }
+}
